@@ -24,4 +24,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: yourusername/yourrepo:latest
+        tags: baobao1718/test:latest
