@@ -21,4 +21,4 @@ jobs:
  
     - name: Pull Docker Image
       run: |
-        docker pull baobao1718/test:tag
+        docker pull baobao1718/test:latest
