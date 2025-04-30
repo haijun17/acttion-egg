@@ -2,7 +2,6 @@ FROM debian:stable-slim
 
 LABEL version="debian:stable-slim"
 
-
 RUN apt-get update && apt-get upgrade -y&&apt-get install -y xfonts-utils fontconfig  curl openssl gnupg xfonts-utils fontconfig apt-utils\
     && mv /etc/localtime /etc/localtime.bak && ln -svf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
     && apt-key adv --keyserver hkp://keyserver.ubuntu.com:80  --recv-keys 0xB1998361219BD9C9 \
